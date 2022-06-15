@@ -1,0 +1,32 @@
+{
+    "name": "memcrab/imcache",
+    "description": "PHP In Memory Cache Lib for Memcrab Core API",
+    "keywords": [
+        "Memory",
+        "Cache",
+        "State",
+        "php",
+        "lib",
+        "memcrab"
+    ],
+    "homepage": "https://memcrab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Diudiun",
+            "email": "a.diudiun@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Memcrab\\ImCache\\": "src/"
+        }
+    }
+}
